@@ -29,6 +29,8 @@ caravel db upgrade
 caravel init
 ```
 
+If my sql runs out of memory when running these commands in a one-off Heroku dyno simply upgrade the app to a 2x (1GB memory) dyno before launching the one-off dyno.
+
 - Load Examples
 ```sh
 caravel load_examples
